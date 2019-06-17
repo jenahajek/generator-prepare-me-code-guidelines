@@ -4,7 +4,7 @@
 ## Installation
 1. Install generator itself.
 ```bash
-npm install -g https://github.com/jenahajek/starter-kit-generator
+npm install -g https://github.com/jenahajek/generator-prepare-me
 ```
 
 2. Then use it to scaffold base for next project. You can choose from those options:
