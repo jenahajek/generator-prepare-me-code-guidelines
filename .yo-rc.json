@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "jena.hajek",
+      "authorEmail": "jena.hajek@gmail.com",
+      "authorUrl": "https://jenahajek.com/"
+    }
+  }
+}
