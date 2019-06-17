@@ -1,4 +1,4 @@
-# generator-jenahajek
+# Prepare-me custom yeoman generator
 > My personal scaffolding for static templates (using Gulp)
 
 ## Installation
