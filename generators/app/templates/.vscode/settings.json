@@ -1,0 +1,10 @@
+{
+  "scss.lint.zeroUnits": "warning",
+  "scss.lint.important": "warning",
+  "scss.lint.idSelector": "warning",
+  "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "prettier.stylelintIntegration": true,
+  "prettier.requireConfig": true
+}

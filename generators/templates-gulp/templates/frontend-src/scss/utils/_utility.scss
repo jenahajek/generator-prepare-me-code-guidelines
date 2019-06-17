@@ -1,0 +1,12 @@
+// --------------------------
+// Utility classes
+// --------------------------
+// - specific, simple & agnostic classes useful for kickstart any project.
+// - add class to html where needed.
+// - u- prefix (as utility :))
+
+// Visually hidden, but still accessible for screen readers.
+.u-screen-reader-text,
+.u-vishid {
+    @include vishid;
+}

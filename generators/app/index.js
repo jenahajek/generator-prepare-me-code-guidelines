@@ -1,38 +1,32 @@
-'use strict';
-const Generator = require('yeoman-generator');
-const chalk = require('chalk');
-const yosay = require('yosay');
+"use strict";
+const Generator = require("yeoman-generator");
+const chalk = require("chalk");
 
 module.exports = class extends Generator {
   prompting() {
-    // Have Yeoman greet the user.
     this.log(
-      yosay(`Welcome to the awe-inspiring ${chalk.red('generator-prepare-me')} generator!`)
+      `${chalk.red(
+        "Hello. Nice to see you want to write clean code."
+      )}\nGlad I can help you with that!\nHere are your code guidelines settings.\nMake sure your code editor is correctly setup, so you can focus on the things that matter. You can look here for instructions: ${chalk.blue(
+        "https://knowledgebase.jenahajek.com/tools/code-editors/code-formatting"
+      )}\n`
     );
-
-    const prompts = [
-      {
-        type: 'confirm',
-        name: 'someAnswer',
-        message: 'Would you like to enable this option?',
-        default: true
-      }
-    ];
-
-    return this.prompt(prompts).then(props => {
-      // To access props later use this.props.someAnswer;
-      this.props = props;
-    });
   }
 
   writing() {
-    this.fs.copy(
-      this.templatePath('dummyfile.txt'),
-      this.destinationPath('dummyfile.txt')
+    this.fs.copyTpl(
+      [
+        `${this.templatePath()}/**/.*`,
+        `${this.templatePath()}/**/*`,
+        `${this.templatePath()}/.vscode`
+      ],
+      this.destinationPath()
     );
   }
 
-  install() {
-    this.installDependencies();
+  end() {
+    console.log(
+      `\n${chalk.green("Code guidelines settings loaded successfuly.")}`
+    );
   }
 };

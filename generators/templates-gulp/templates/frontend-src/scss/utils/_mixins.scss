@@ -1,0 +1,23 @@
+// --------------------------
+// Visually hidden
+// --------------------------
+// hide from screen, keep accessible to screen readers
+// https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+@mixin vishid {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  margin: -1px;
+  border: 0;
+
+  a:focus,
+  input:focus,
+  button:focus {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+}

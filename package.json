@@ -69,6 +69,9 @@
     "pretest": "eslint .",
     "test": "jest"
   },
-  "repository": "jenahajek/generator-prepare-me",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jenahajek/prepare-me"
+  },
   "license": "Apache-2.0"
 }

@@ -1,0 +1,23 @@
+<!doctype html>
+<html class="no-js" lang="cs">
+  <head>
+    <title>
+      {% block pageTitle %}{% endblock %}
+      | jenahajek.com</title>
+
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    {% include "../components/_favicon.twig" %}
+
+    <script src="js/vendor/modernizr.js"></script>
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+    {% block content %}{% endblock %}
+  </body>
+</html>
