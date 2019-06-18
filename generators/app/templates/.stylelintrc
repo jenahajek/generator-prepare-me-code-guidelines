@@ -1,5 +1,5 @@
 {
   "extends": [
-    "styleling-config-jenahajek"
+    "stylelint-config-jenahajek"
   ]
 }
