@@ -1,5 +1,5 @@
 {
-  "name": "generator-prepare-me",
+  "name": "generator-prepare-me-code-guidelines",
   "version": "0.1.1-pre",
   "description": "Prepare me code guidelines settings.",
   "homepage": "",
@@ -71,7 +71,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jenahajek/prepare-me"
+    "url": "https://github.com/jenahajek/generator-prepare-me-code-guidelines"
   },
   "license": "Apache-2.0"
 }
