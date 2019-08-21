@@ -25,7 +25,7 @@ module.exports = class extends Generator {
         'eslint-plugin-react': '^7.13.0',
         'prettier': '^1.18.2',
         'stylelint': '^10.1.0',
-        'stylelint-config-jenahajek': '^1.0.0',
+        'stylelint-config-jenahajek': '^1.1.0',
         'stylelint-config-standard': '^18.3.0',
         'stylelint-scss': '^3.8.0'
       },
