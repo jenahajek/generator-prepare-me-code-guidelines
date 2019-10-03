@@ -27,6 +27,7 @@ module.exports = class extends Generator {
         'stylelint': '^10.1.0',
         'stylelint-config-jenahajek': '^1.1.0',
         'stylelint-config-standard': '^18.3.0',
+        "stylelint-order": "^3.1.1",
         'stylelint-scss': '^3.8.0'
       },
     };
