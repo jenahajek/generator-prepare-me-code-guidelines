@@ -9,7 +9,7 @@ npm install -g yo
 
 2. Install generator itself.
 ```bash
-npm install -g https://github.com/jenahajek/generator-prepare-me-code-guidelines
+npm install -g generator-prepare-me-code-guidelines
 ```
 
 3. Then use it to scaffold base for next project. You can choose from those options:
