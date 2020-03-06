@@ -1,7 +1,0 @@
-bin
-obj
-*.*
-!*.css
-!*.scss
-dist/**/*
-**/node_modules/**/*

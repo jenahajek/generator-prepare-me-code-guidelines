@@ -1,8 +1,21 @@
-# SuperLinters (custom yeoman generator)
-Get stylelint, eslint and prettier configurations to living project with one command.
+# Prepare-me Code Guidelines (custom yeoman generator)
+> My personal scaffolding for Code Guidelines configurations.
 
 ## Installation
-1. Go to the project folder and run
+1. Install CLI tool for running Yeoman.
 ```bash
-npm init yo superlinters
+npm install -g yo
 ```
+
+2. Install generator itself.
+```bash
+npm install -g generator-prepare-me-code-guidelines
+```
+
+3. Then use it to scaffold base for next project. You can choose from those options:
+
+| Command                         | Description                  |
+| ------------------------------- | ---------------------------- |
+| `yo prepare-me-code-guidelines` | Get code guidelines settings |
+
+4. Optionally you can make shortcuts in your shell for easier access.
